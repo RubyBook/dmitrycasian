@@ -5,4 +5,5 @@ require './user.rb'
 # и profession, который возвращает профессию. Создайте программу, которая демонстрирует работу класса.
 
 user = User.new('Dmitry', 'Casian', 'Student')
-puts "First Name: #{user.first_name}\nLast Name: #{user.last_name}\nProfession : #{user.profession}"
+puts user.fio
+puts user.profession

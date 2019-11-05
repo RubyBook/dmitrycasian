@@ -6,4 +6,8 @@ class User
     @last_name = last_name
     @profession = profession
   end
+
+  def fio
+    @first_name + ' ' + @last_name
+  end
 end
