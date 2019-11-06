@@ -1,5 +1,5 @@
 class User
-  attr_reader :first_name, :last_name, :profession
+  attr_reader :profession
 
   def initialize(first_name = nil, last_name = nil, profession = nil)
     @first_name = first_name
@@ -8,6 +8,6 @@ class User
   end
 
   def fio
-    @first_name + ' ' + @last_name
+    "#{@first_name} #{@last_name}"
   end
 end
